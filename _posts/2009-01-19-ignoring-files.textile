@@ -8,7 +8,7 @@ Nós não precisamos que GIT monitore tudo em nossos projetos, sejam arquivos co
 
 p=. "!http://farm1.static.flickr.com/4/7240060_1332e880ff.jpg!":http://flickr.com/photos/miskan/7240060/
 
-A maneira mais simples e mais fácil é criar um arquivo @.gitignore@ no diretório raiz do projeto. Os arquivos que escolhar pra ignorar serão ignorados em todos os diretórios do projeto, salvo se incluírem seus próprios arquivos @.gitignore@. Isso é bom por que você tem apenas um lugar para configurar diferente do SVN svn:ignore que deve ser definido em cada diretório. Além disso, o arquivo pode ser monitorada o que é muito bom.
+A maneira mais simples e mais fácil é criar um arquivo @.gitignore@ no diretório raiz do projeto. Os arquivos que escolher pra ignorar serão ignorados em todos os diretórios do projeto, salvo se incluírem seus próprios arquivos @.gitignore@. Isso é bom por que você tem apenas um lugar para configurar diferente do SVN svn:ignore que deve ser definido em cada diretório. Além disso, o arquivo pode ser monitorado o que é muito bom.
 
 Aqui está um @.gitignore@ básico:
 

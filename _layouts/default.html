@@ -1,18 +1,18 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>git ready &raquo; {{ page.title }}</title>
-   <meta name="author" content="Nick Quaranto" />
-   <link href="http://feeds.feedburner.com/GitReadyPtBr" rel="alternate" title="RSS" type="application/rss+xml" />
-   <link rel="stylesheet" href="/css/reset.css" type="text/css" media="screen, projection" />
-   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
-   <link rel="stylesheet" href="/css/960.css" type="text/css" media="screen, projection" />
+	 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	 <title>git ready &raquo; {{ page.title }}</title>
+	 <meta name="author" content="Nick Quaranto" />
+	 <link href="http://feeds.feedburner.com/GitReadyPtBr" rel="alternate" title="RSS" type="application/rss+xml" />
+	 <link rel="stylesheet" href="/css/reset.css" type="text/css" media="screen, projection" />
+	 <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+	 <link rel="stylesheet" href="/css/960.css" type="text/css" media="screen, projection" />
 </head>
 <body>
-  <div class="container_12">
+	<div class="container_12">
 		<div class="grid_4 prefix_2 title">
 			<h1><a href="/">git ready</a></h1>
 		</div>
@@ -20,41 +20,41 @@
 			<div class="extra">dicas diárias para o noob ao guru</div>
 			<div class="author">por Nick Quaranto, traduzido pela comunidade RailsBr</div>
 		</div>
-    <div class="grid_8 prefix_2 suffix_2 main">
-      {{ content }}
-    </div> 
-    <div class="grid_2 prefix_2 links">
-      <h3 id="green">iniciante</h3>
-      {% for post in site.categories.iniciante %}
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      {% endfor %}
-    </div>
-    <div class="grid_2 links">
-      <h3 id="yellow">intermediário</h3>
-      {% for post in site.categories.intermediario %}
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      {% endfor %}
-    </div>
-    <div class="grid_2 links">
-      <h3 id="red">avançado</h3>
-      {% for post in site.categories.avancado %}
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      {% endfor %}
-    </div>
-    <div class="grid_2 suffix_2 links">
-      <h3 id="blue">recursos</h3>
-      <a href="http://book.git-scm.com">Git Community Book</a>
-      <a href="http://github.com/guides">GitHub Guides</a>
-      <a href="http://git.or.cz/gitwiki">GitWiki</a>
-      <a href="http://gitcasts.com">GitCasts</a>
-      <a href="http://www.kernel.org/pub/software/scm/git/docs/gittutorial.html">Git for everyone</a>
-      <a href="http://git.or.cz/course/svn.html">Git-SVN Crash Course</a>
-      <a href="http://cheat.errtheblog.com/s/git">$ cheat git</a>
-      <a href="http://whygitisbetterthanx.com">Why Git is Better Than X</a>
-      <a href="http://eagain.net/articles/git-for-computer-scientists/">Git for Computer Scientists</a>
-      <a href="http://www-cs-students.stanford.edu/~blynn/gitmagic/">Git Magic</a>
-    </div>
-    <div class="grid_12 footer">    
+		<div class="grid_8 prefix_2 suffix_2 main">
+			{{ content }}
+		</div> 
+		<div class="grid_2 prefix_2 links">
+			<h3 id="green">iniciante</h3>
+			{% for post in site.categories.iniciante %}
+				<a href="{{ post.url }}">{{ post.title }}</a>
+			{% endfor %}
+		</div>
+		<div class="grid_2 links">
+			<h3 id="yellow">intermediário</h3>
+			{% for post in site.categories.intermediario %}
+				<a href="{{ post.url }}">{{ post.title }}</a>
+			{% endfor %}
+		</div>
+		<div class="grid_2 links">
+			<h3 id="red">avançado</h3>
+			{% for post in site.categories.avancado %}
+				<a href="{{ post.url }}">{{ post.title }}</a>
+			{% endfor %}
+		</div>
+		<div class="grid_2 suffix_2 links">
+			<h3 id="blue">recursos</h3>
+			<a href="http://book.git-scm.com">Git Community Book</a>
+			<a href="http://github.com/guides">GitHub Guides</a>
+			<a href="http://git.or.cz/gitwiki">GitWiki</a>
+			<a href="http://gitcasts.com">GitCasts</a>
+			<a href="http://www.kernel.org/pub/software/scm/git/docs/gittutorial.html">Git for everyone</a>
+			<a href="http://git.or.cz/course/svn.html">Git-SVN Crash Course</a>
+			<a href="http://cheat.errtheblog.com/s/git">$ cheat git</a>
+			<a href="http://whygitisbetterthanx.com">Why Git is Better Than X</a>
+			<a href="http://eagain.net/articles/git-for-computer-scientists/">Git for Computer Scientists</a>
+			<a href="http://www-cs-students.stanford.edu/~blynn/gitmagic/">Git Magic</a>
+		</div>
+		<div class="grid_12 footer">
 			<div class="footer_links">
 				<a href="/about.html">sobre</a>
 				<a href="http://github.com/taylorrf/gitready/tree/pt-br">fontes</a>
@@ -63,26 +63,28 @@
 				<a href="http://twitter.com/gitready">twitter</a>
 			</div>
 			<div class="languages">
-				<span>available in:</span>
-				<a href="http://pt-br.gitready.com">portuguese</a> |
-				<a href="http://de.gitready.com/">german</a> |
-				<a href="http://gitready.com">english</a> |
-				<a href="http://github.com/qrush/gitready/blob/pt-br/README.md">your language?</a>
+				<span>disponível em:</span>
+				<a href="http://pt-br.gitready.com">português</a> |
+				<a href="http://de.gitready.com">alemão</a> |
+				<a href="http://it.gitready.com">italiano</a> |
+				<a href="http://es.gitready.com">espanhol</a> |
+				<a href="http://gitready.com">inglês</a> |
+				<a href="http://github.com/qrush/gitready/blob/pt-br/README.md">sua lingua?</a>
 			</div>
-    </div>
-  </div>
-  <script type="text/javascript">
-  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-  </script>
-  <script type="text/javascript">
-  try {
-  var pageTracker = _gat._getTracker("UA-6929260-1");
-  pageTracker._trackPageview();
-  } catch(err) {}</script>
-  <div id="counter">
-    <script src="http://errcount.com/ctr/762.js"></script>
-    <p id="feedburner"><a href="http://feeds2.feedburner.com/git-ready"><img src="http://feeds2.feedburner.com/~fc/git-ready?bg=FFE3A3&amp;fg=000000&amp;anim=0" height="26" width="88" style="border:0" alt="" /></a></p>
-  </div>
+		</div>
+	</div>
+	<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	try {
+	var pageTracker = _gat._getTracker("UA-6929260-1");
+	pageTracker._trackPageview();
+	} catch(err) {}</script>
+	<div id="counter">
+		<script src="http://errcount.com/ctr/762.js"></script>
+		<p id="feedburner"><a href="http://feeds2.feedburner.com/git-ready"><img src="http://feeds2.feedburner.com/~fc/git-ready?bg=FFE3A3&amp;fg=000000&amp;anim=0" height="26" width="88" style="border:0" alt="" /></a></p>
+	</div>
 </body>
 </html>
